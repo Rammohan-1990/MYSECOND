@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.orange.utility.Extends_reports"/>
+  </listeners>
+  <test thread-count="5" name="Test02(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.orange.testcases.Test_case_01">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- com.orange.testcases.Test_case_01 -->
+    </classes>
+  </test> <!-- Test02(failed) -->
+</suite> <!-- Failed suite [Suite] -->

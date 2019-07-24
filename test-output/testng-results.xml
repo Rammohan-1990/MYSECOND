@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49887" started-at="2019-07-23T17:08:20Z" finished-at="2019-07-23T17:09:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21091" started-at="2019-07-23T17:08:20Z" finished-at="2019-07-23T17:08:42Z">
+      <class name="com.orange.testcases.Test_case_01">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.orange.testcases.Test_case_01@7d9d1a19]" name="setup" is-config="true" duration-ms="4951" started-at="2019-07-23T17:08:21Z" finished-at="2019-07-23T17:08:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.orange.testcases.Test_case_01@7d9d1a19]" name="setup" duration-ms="5354" started-at="2019-07-23T17:08:26Z" finished-at="2019-07-23T17:08:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.orange.testcases.Test_case_01@7d9d1a19]" name="logintest" duration-ms="9511" started-at="2019-07-23T17:08:31Z" finished-at="2019-07-23T17:08:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orange.testcases.Test_case_01@7d9d1a19]" name="teardown" is-config="true" duration-ms="851" started-at="2019-07-23T17:08:41Z" finished-at="2019-07-23T17:08:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange.testcases.Test_case_01 -->
+    </test> <!-- Test -->
+    <test name="Test02" duration-ms="28181" started-at="2019-07-23T17:08:42Z" finished-at="2019-07-23T17:09:10Z">
+      <class name="com.orange.testcases.Test_case_01">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.orange.testcases.Test_case_01@5700d6b1]" name="setup" is-config="true" duration-ms="7292" started-at="2019-07-23T17:08:42Z" finished-at="2019-07-23T17:08:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.orange.testcases.Test_case_01@5700d6b1]" name="setup" duration-ms="10623" started-at="2019-07-23T17:08:50Z" finished-at="2019-07-23T17:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.orange.testcases.Test_case_01@5700d6b1]" name="logintest" duration-ms="6834" started-at="2019-07-23T17:09:00Z" finished-at="2019-07-23T17:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orange.testcases.Test_case_01@5700d6b1]" name="teardown" is-config="true" duration-ms="3413" started-at="2019-07-23T17:09:07Z" finished-at="2019-07-23T17:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orange.testcases.Test_case_01 -->
+    </test> <!-- Test02 -->
+  </suite> <!-- Suite -->
+</testng-results>
